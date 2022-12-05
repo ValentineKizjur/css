@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+
+body {
+    background-color: rgb(214, 144, 52);
+    color: rgba(0, 0, 0, 0.788);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+}
+
+a {
+    color: rgb(179, 31, 11);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: gray;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px;
+}
+
+
+
+.info-text{
+margin-left: 40px;
+}
+
+
+.info-text h4 {
+    margin-left: 10px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info p{
+color: bisque;      
+margin: 0;
+font-style: italic;
+}
+
+/* Box model */
+
+.container {
+max-width: 750px;
+margin: auto;
+padding-top: 30px;
+}
+
+/* .social{
+background: green;
+padding: 15px 40px;
+border: 5px solid red;
+margin: 20px;
+} */
+
+/* .box-model div {
+    float: left;
+    background: black;
+    height: 200px;
+    width: 25%;
+} */
+
+
+.card {
+    padding: 15px 20px;
+    background: rgb(199, 132, 45);
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: bisque;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: bisque;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+display: block;
+font-size: 14px;
+color:bisque ;
+}
+
+.form-group input,.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%; 
+    margin-right: 20px  ;
+}
+
+.btn {
+    background: rgba(0, 0, 0, 0.788);
+    padding: 15px 20px;
+    color: bisque ;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* position */
+
+.position {
+    position: relative;
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+}
+
+.box {
+    position: absolute;
+    /* bottom: 150px; */
+    /* left: 0px ; */
+    width: 50px;
+    height: 50px;
+    background: burlywood;
+}
